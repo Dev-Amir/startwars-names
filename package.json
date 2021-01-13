@@ -1,0 +1,26 @@
+{
+  "name": "startwars-names",
+  "version": "1.0.0",
+  "description": "For all your random Start Wars character needs",
+  "main": "require()\u001b[D\u001b[src/index.js",
+  "scripts": {
+    "test": "(mocha)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Amir/startwars-names.git"
+  },
+  "keywords": [
+    "star",
+    "wars"
+  ],
+  "author": "Amir Hemmati <dev.amirhemmati1382@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-Amir/startwars-names/issues"
+  },
+  "homepage": "https://github.com/Dev-Amir/startwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  }
+}
