@@ -4,7 +4,8 @@
   "description": "For all your random Start Wars character needs",
   "main": "require()\u001b[D\u001b[src/index.js",
   "scripts": {
-    "test": "(mocha)"
+    "test": "(mocha)",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/Dev-Amir/startwars-names#readme",
   "dependencies": {
     "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-kentcdodds": "^17.3.0"
   }
 }
