@@ -2,11 +2,13 @@
   "root": true,
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
   "extends": [
     "kentcdodds/best-practices",
-    "kentcdodds/possible-errors"
+    "kentcdodds/possible-errors",
+    "kentcdodds/mocha"
   ],
   "rules": {
     "semi": "warn"
